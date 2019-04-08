@@ -1,0 +1,36 @@
+.elementExemple {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+.elementExemple_first {
+  position: absolute;
+  right: 0;
+  background-color: #6c5ce7;
+}
+
+.elementExemple_second {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  background-color: #00b894;
+}
+.elementExemple_last {
+  position: absolute;
+  background-color: #d63031;
+}
+.elementExemple-internal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background-color: #00cec9;
+}
